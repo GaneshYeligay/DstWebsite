@@ -1,0 +1,27 @@
+{
+  "short_name": "Digital Shark",
+  "name": "Digital Shark Technology",
+  "description": "Innovation made easy!",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "/dist/img/favicon.png",
+      "sizes": "64x8",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

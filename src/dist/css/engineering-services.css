@@ -1,0 +1,1737 @@
+.EngSrv-technology-section .title-text {
+  font-size: 4em;
+  font-family: Lato, MoolBoran;
+  font-weight: 600;
+  color: #484646;
+}
+
+.page-title {
+  background: #2d4791;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", GothamBook, sans-serif;
+  color: #424143;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.page-title h2 {
+  letter-spacing: 4px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 35px;
+  max-width: 100%;
+}
+@media (max-width: 500px) {
+  .page-title {
+    background: #2d4791;
+    /*  margin: 30% 0 30px; */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", GothamBook, sans-serif;
+    color: #424143;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+}
+/* @media (max-width: 400px) {
+    .page-title {
+      background: #2d4791;
+      margin: 40% 0 30px;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Roboto", GothamBook, sans-serif;
+      color: #424143;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      position: relative;
+    }
+  } */
+
+@media (width: 768px) {
+  .page-title {
+    background: #2d4791;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", GothamBook, sans-serif;
+    color: #424143;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+}
+
+@media (max-width: 320px) {
+  .page-title {
+    background: #2d4791;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", GothamBook, sans-serif;
+    color: #424143;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+}
+
+@media (min-width: 900px) {
+  .page-title {
+    background: #2d4791;
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", GothamBook, sans-serif;
+    color: #424143;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* width: 90%; */
+  }
+
+  .page-title h2:after {
+    content: "";
+    width: 128px;
+    height: 1px;
+    top: 50%;
+    background: #424143;
+    position: absolute;
+    left: 0;
+  }
+  .page-title h2:before {
+    content: "";
+    width: 128px;
+    height: 1px;
+    top: 50%;
+    background: #dde7fe;
+    position: absolute;
+    right: 0;
+  }
+
+  .page-title h2 {
+    margin: 0 20px;
+    padding: 0 126px;
+    letter-spacing: 6px;
+    color: #424143;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 100%;
+  }
+  .page-title h2 span {
+    max-width: 100%;
+    display: inline-block;
+    padding: 0 16px 0 22px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    letter-spacing: 6px;
+  }
+
+  .page-title h2 span::before {
+    background: #dde7fe;
+    box-sizing: border-box;
+  }
+  .page-title h2::after {
+    background: #dde7fe;
+  }
+
+  .page-title h2 span::after {
+    background: #dde7fe;
+  }
+  .page-title h2 span:after {
+    box-sizing: border-box;
+    left: auto;
+    right: 0;
+  }
+
+  .page-title h2 span:after {
+    content: "";
+    width: 2px;
+    height: 22px;
+    background: #dde7fe;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -11px;
+  }
+
+  .page-title h2 span:before {
+    content: "";
+    width: 2px;
+    height: 22px;
+    background: #dde7fe;
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    margin-top: -11px;
+  }
+
+  .EngSrv-technology-section .header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 5%; */
+  }
+  .EngSrv-technology-section .body-section {
+    margin-top: 28%;
+  }
+
+  .EngSrv-technology-section .title-text {
+    font-size: 4rem;
+
+    font-weight: 600;
+    color: rgb(72, 70, 70);
+    font-family: Lato, MoolBoran;
+  }
+
+  .EngSrv-technology-section .sub-title-text {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    max-width: calc(100% - 500px);
+    display: block;
+    text-align: center;
+    font-family: Lato, MoolBoran;
+    color: rgb(113, 108, 108);
+  }
+}
+.EngSrv-technology-section .sub-title-text {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  max-width: 90%;
+  display: block;
+  text-align: center;
+  font-family: Lato, MoolBoran;
+  color: rgb(113, 108, 108);
+}
+.dataTextStyle {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+  border-color: #dce2ed;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+.dataTextStyle .colTextStyle {
+  padding: 0 15px;
+  text-align: center;
+}
+.dataTextStyle .colTextStyle h3 {
+  font-family: Lato;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.dataTextStyle .colTextStyle h3 span {
+  color: #2d4791;
+}
+.divClassStyle {
+  max-width: 105rem;
+  justify-content: center;
+  /* / border: 1px solid red; / */
+  display: inline-block;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+.datarowStyle {
+  width: 100%;
+  height: 175px;
+  padding: 0px 0px 0px 0px;
+}
+.datarowStyle .colspan4 {
+  text-align: center;
+}
+.datarowStyle .colspan3 {
+  text-align: center;
+}
+.datarowStyle .colspan3 h6 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #3a424a;
+  text-align: center;
+  padding-top: 2%;
+}
+.datarowStyle .colspan4 h6 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #3a424a;
+  text-align: center;
+  padding-top: 2%;
+}
+.datarowStyle .colspan3 .imageTag {
+  height: 11rem;
+}
+.datarowStyle .colspan4,
+.imageTag {
+  height: 11rem;
+}
+@media only screen and (min-width: 800px) and (max-width: 800px) {
+  /* new change */
+  .datarowStyle .colspan3 {
+    text-align: center;
+    margin-bottom: 10%;
+    width: 50%;
+    max-width: 48%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+  /* new change */
+  .datarowStyle .colspan3 {
+    text-align: center;
+    margin-bottom: 10%;
+    width: 50%;
+    max-width: 48%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  /* new change */
+  .datarowStyle .colspan3 {
+    text-align: center;
+    margin-bottom: 10%;
+    width: 50%;
+    max-width: 48%;
+  }
+}
+/* @media only screen and (min-width:768px) and (max-width: 768px){   
+    .datarowStyle .colspan3 .imageTag {
+      height: 8rem;
+    }
+  } */
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+  .datarowStyle {
+    width: auto;
+    padding: 0px 0px;
+  }
+}
+/* Small devices (landscape phones, 575px and below) */
+@media (max-width: 575px) {
+  .dataTextStyle .colTextStyle h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .divClassStyle {
+    font-size: 14px;
+  }
+  .datarowStyle {
+    width: auto;
+    padding: 0px 10px;
+    /* display: block; */
+    display: contents;
+    flex-wrap: initial;
+  }
+  .datarowStyle .colspan4 {
+    text-align: center;
+    margin-bottom: 22%;
+  }
+  .datarowStyle .colspan3 {
+    text-align: center;
+    margin-bottom: 20%;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .dataTextStyle .colTextStyle h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .divClassStyle {
+    font-size: 13px;
+    max-width: 58rem;
+  }
+  .datarowStyle {
+    width: auto;
+    padding: 0px 10px;
+    /* display: block; */
+    display: contents;
+    flex-wrap: initial;
+  }
+  .datarowStyle .colspan4 {
+    text-align: center;
+    margin-bottom: 10%;
+
+    width: 50%;
+  }
+  .datarowStyle .colspan3 {
+    text-align: center;
+    margin-bottom: 10%;
+
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .datarowStyle {
+    width: 100%;
+    height: 175px;
+    padding: 0px 0px 0px 0px;
+  }
+  .divClassStyle {
+    font-size: 14px;
+    max-width: 78rem;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .divClassStyle {
+    font-size: 1.7rem;
+  }
+  .datarowStyle {
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0 1%;
+  }
+  .divClassStyle {
+    font-size: 2rem;
+    max-width: 105rem;
+  }
+}
+@media only screen and (width: 1440px) and (height: 900px) {
+  .datarowStyle {
+    margin: 0 0%;
+  }
+}
+@media only screen and (width: 1280px) and (height: 800px) {
+  .datarowStyle {
+    margin: 0 0%;
+  }
+}
+@media only screen and (width: 1280px) and (height: 950px) {
+  .datarowStyle {
+    margin: 0 0%;
+  }
+}
+/* .courseCover .wrapCard {
+    display: block;
+  } */
+
+@media (max-width: 361px) {
+  .colPosSdp {
+    margin-left: -3%;
+  }
+}
+@media only screen and (width: 320px) and (max-width: 568px) {
+  .colPosSdp {
+    margin-left: -11%;
+  }
+}
+@media screen and (min-width: 362px) and (max-width: 599px) {
+  .colPosSdp {
+    margin-left: 0%;
+  }
+}
+@media only screen and (width: 600px) and (height: 960px) {
+  .colPosSdp {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media only screen and (width: 768px) and (height: 1024px) {
+  .datarowStyle {
+    width: 100%;
+  }
+}
+
+/* for image on onHover in Engineering services */
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.colspan4 :hover .imageTag {
+  opacity: 0.2;
+}
+.colspan4:hover .middle {
+  opacity: 0.9;
+  /* position: absolute; */
+  margin-top: 1%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.colspan3 :hover .imageTag {
+  opacity: 0.2;
+}
+.colspan3:hover .middle {
+  opacity: 0.9;
+  position: absolute;
+  margin-top: 1%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.middle .text {
+  background-color: black;
+  font-family: "Poppins", Roboto;
+  color: white;
+  font-size: 13px;
+  padding: 10px 10px;
+  height: 200px;
+  width: 250px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* -webkit-box-shadow: 3px 3px 3px 3px #ccc; 
+    -moz-box-shadow: 3px 3px 3px 3px #ccc; 
+    box-shadow: 3px 3px 3px 3px #ccc; */
+}
+.middle .text h5 {
+  font-size: 18px;
+  color: #ff9900;
+}
+.middle .text a {
+  font-family: "Poppins", Roboto;
+  font-size: 18px;
+  color: #ff9900;
+  font-weight: 600px;
+  margin-top: -1px;
+}
+.middle .text a:hover {
+  font-family: "Poppins", Roboto;
+  font-size: 20px;
+  color: white;
+}
+
+.text .textHeight {
+  height: 125px;
+}
+.middle .text .fa {
+  font-size: 20px;
+  padding-left: 5px;
+  margin-top: 4%;
+}
+.middle .text .fa:hover {
+  font-size: 22px;
+  padding-left: 5px;
+  margin-top: 4%;
+}
+/* for Engineering baner for small screens--->starts */
+@media (max-width: 575px) {
+  .EngineeringImageDesktop {
+    display: none;
+  }
+}
+
+/* Ends */
+/* engineering data start*/
+.tabledata {
+  padding: 10px;
+  color: #000205;
+}
+.bpe-thumb-container-eng {
+  text-align: center;
+  margin-top: 37px;
+}
+.engineeringData .colMarginTop {
+  text-align: left;
+  margin-top: 20px;
+}
+.bpe-details-container-eng span {
+  font-size: 17px;
+  color: #000205;
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+}
+section .engineeringEmbd {
+  margin-left: 8%;
+  width: 85%;
+  margin-top: -2%;
+}
+
+.mtt_container {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.mtt_container_text {
+  font-family: Lato, MoolBoran;
+  color: #484646;
+  width: 100%;
+  font-size: 300%;
+  font-weight: 600;
+}
+@media screen and (min-width: 1366px) {
+  #hero-wrapper .carousel-wrapper .carousel .carousel-inner {
+    height: 90vh;
+  }
+  /* section .bannerImageFixed .bannerFixedImageNewsite img {
+      height: 626px;
+      width: 95%;
+      margin-left: 2%;
+  } */
+  /* .mtt_container {
+      padding-top: 144px;
+    } */
+}
+
+@media screen and (device-width: 1024px) and (device-height: 600px) and (orientation: landscape) {
+  .mtt_container {
+    padding-top: 70px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 800px) {
+  .bpe-details-container-eng span {
+    font-size: 14px;
+  }
+  .bpe-thumb-img {
+    margin-top: 36px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .bpe-details-container-eng span {
+    font-size: 14px;
+  }
+  .bpe-thumb-img {
+    margin-top: 36px;
+  }
+}
+@media (max-width: 599px) {
+  section .engineeringEmbd {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .mtt_container {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 25%;
+  }
+  .mtt_container_text {
+    font-size: 30px;
+  }
+  .bpe-details-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .bpe-details-container span {
+    font-size: 15px;
+  }
+  .engineeringData .colMarginTop {
+    padding: 0px 0px;
+    margin-bottom: 6%;
+    text-align: center;
+  }
+}
+@media (max-width: 765px) {
+  .HomeDataColumnReverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 600px) {
+  .HomeDataColumnReverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .engineeringEmbd {
+    display: block;
+    flex: none;
+  }
+  .engineeringData .colMarginTop {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 640px) {
+  .HomeDataColumnReverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .engineeringEmbd {
+    display: block;
+    flex: none;
+  }
+  .engineeringData .colMarginTop {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+  .bpe-details-container-eng span {
+    font-size: 15px;
+  }
+}
+
+/* end */
+
+.ImageDisplay {
+  display: none;
+}
+@media (max-width: 575px) {
+  .EngineeringBannerImage {
+    display: none;
+  }
+  .ImageDisplay {
+    display: block;
+    position: relative;
+    height: 111vh;
+    background: white;
+    margin-top: 6%;
+  }
+  .ImageDisplay .arrowImagePosition {
+    position: absolute;
+    top: 9%;
+    right: 0%;
+  }
+  .ImageDisplay .arrowImagePosition img {
+    max-height: 11rem;
+  }
+  .ImageDisplay .dataPresent {
+    position: absolute;
+    top: 17%;
+    left: -4%;
+  }
+  .ImageDisplay .dataPresent h2 {
+    margin-left: 3rem;
+    position: absolute;
+    color: #0576be;
+    top: -5%;
+    left: 2%;
+    max-width: 28rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+  }
+  .ImageDisplay .dataPresent p {
+    margin-top: 8%;
+    color: #646466;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding-right: 25px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 412px) {
+  .ImageDisplay {
+    margin-top: 6%;
+    height: 58vh;
+  }
+  .ImageDisplay .dataPresent p {
+    padding-right: 15px;
+    margin-top: 7%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 480px) {
+  /* .ImageDisplay {
+      margin-top: 4%;
+      height: 58vh;
+    }
+    .ImageDisplay .dataPresent p {
+      padding-right: 24px;
+      margin-left: 9%;
+      font-size: 20px;
+      margin-top: 86px;
+    } */
+}
+@media only screen and (width: 320px) and (height: 480px) {
+  .ImageDisplay .dataPresent h2 {
+    left: -5%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 16px;
+    margin-left: 5%;
+    padding-right: 15px;
+  }
+  .ImageDisplay {
+    height: 82vh;
+    margin-top: 9%;
+  }
+}
+@media screen and (min-width: 411px) and (max-width: 411px) {
+  .ImageDisplay {
+    margin-top: 4%;
+    height: 65vh;
+  }
+  .ImageDisplay .dataPresent p {
+    padding-right: 15px;
+    font-size: 21px;
+    margin-left: 10%;
+  }
+}
+@media only screen and (width: 320px) and (height: 568px) {
+  /* .ImageDisplay {
+      height: 82vh;
+    }
+    .ImageDisplay .dataPresent h2 {
+      max-width: 27rem;
+      font-weight: 600;
+      font-size: 3rem;
+      left: -5%;
+    }
+    .ImageDisplay .dataPresent p {
+      margin-left: 5%;
+      padding-right: 20px;
+    } */
+}
+@media screen and (min-width: 375px) and (max-width: 375px) {
+  /* .ImageDisplay .dataPresent h2 {
+      left: -1%;
+    }
+    .ImageDisplay .dataPresent p {
+      margin-left: 8%;
+      padding-right: 22px;
+    }
+    .ImageDisplay {
+      margin-top: 5%;
+      height: 62vh;
+    } */
+}
+@media screen and (min-width: 414px) and (max-width: 414px) {
+  .ImageDisplay .dataPresent p {
+    padding-right: 20px;
+  }
+  .ImageDisplay {
+    height: 60vh;
+  }
+}
+
+@media only screen and (width: 320px) and (height: 533px) {
+  .ImageDisplay .dataPresent h2 {
+    /*  font-size: 3rem;
+      left: -6%;
+      max-width: 27rem; */
+  }
+  .ImageDisplay .dataPresent p {
+    /*  margin-left: 4%; */
+  }
+}
+
+.nav-sidebar .nav-item .nav-link {
+  margin-left: -3%;
+}
+
+/* for new image added for Embedded solution in Engineering services */
+.EmbeddedImagePosition {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.EmbeddedImagePosition img {
+  width: 90%;
+  height: 100%;
+}
+.TestAutoImagePosition {
+  position: relative;
+  width: 72%;
+  height: 100%;
+  text-align: center;
+}
+.TestAutoImagePosition img {
+  width: 40%;
+  height: 100%;
+}
+.TestAuto2ImagePosition {
+  position: relative;
+  width: 88%;
+  height: 100%;
+  text-align: right;
+  margin-top: -30%;
+}
+.TestAuto2ImagePosition img {
+  width: 40%;
+  height: 100%;
+}
+/* end */
+
+/* styles added for pattern used for Hardware,Embedded,Firware and Mechanical designs  */
+
+.engineeringHEFMStyle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-left: 1%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+/* .engineeringHEFMStyle .rowColor {
+    background-color: #ffffff;
+  } */
+.engineeringHEFMStyle .rowColor .HardwareImg .sectionImageHardware {
+  min-height: 350px;
+  height: auto;
+  text-transform: capitalize;
+  margin-left: -1%;
+}
+.engineeringHEFMStyle .rowColor .HardwareImg .sectionImageHardware img {
+  width: 100%;
+  height: 406px;
+}
+.engineeringHEFMStyle .rowColor .HardWareData {
+  margin: 12% 0;
+}
+.engineeringHEFMStyle .rowColor .HardWareData h2 {
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.engineeringHEFMStyle .rowColor .HardWareData p {
+  margin-top: 5%;
+  padding: 0px 4%;
+  font-size: 1.5rem;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  text-indent: 50px;
+}
+.engineeringHEFMStyle .rowColor .EmbeddedImg .sectionImageEmbedded {
+  min-height: 350px;
+  height: auto;
+  text-transform: capitalize;
+  margin-left: -2%;
+}
+.engineeringHEFMStyle .rowColor .EmbeddedImg .sectionImageEmbedded img {
+  width: 100%;
+  height: 406px;
+}
+
+.engineeringHEFMStyle .rowColor .EmbeddedData {
+  margin: 12% 0;
+}
+.engineeringHEFMStyle .rowColor .EmbeddedData h2 {
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.engineeringHEFMStyle .rowColor .EmbeddedData p {
+  margin-top: 5%;
+  padding: 0px 4%;
+  font-size: 1.5rem;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  text-indent: 50px;
+}
+.engineeringHEFMStyle .rowColor .FPGAImg .sectionImageFPGA {
+  min-height: 350px;
+  height: auto;
+  text-transform: capitalize;
+  margin-left: -1%;
+}
+.engineeringHEFMStyle .rowColor .FPGAImg .sectionImageFPGA img {
+  width: 100%;
+  height: 406px;
+}
+
+.engineeringHEFMStyle .rowColor .FPGAData {
+  margin: 12% 0;
+}
+.engineeringHEFMStyle .rowColor .FPGAData h2 {
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.engineeringHEFMStyle .rowColor .FPGAData p {
+  margin-top: 5%;
+  padding: 0px 4%;
+  font-size: 1.5rem;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  text-indent: 50px;
+}
+.engineeringHEFMStyle .rowColor .MechanicalImg .sectionImageMechanical {
+  min-height: 350px;
+  height: auto;
+  text-transform: capitalize;
+  margin-left: -2%;
+}
+.engineeringHEFMStyle .rowColor .MechanicalImg .sectionImageMechanical img {
+  width: 100%;
+  height: 406px;
+}
+
+.engineeringHEFMStyle .rowColor .MechanicalData {
+  margin: 7% 0;
+}
+.engineeringHEFMStyle .rowColor .MechanicalData h2 {
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.engineeringHEFMStyle .rowColor .MechanicalData p {
+  margin-top: 5%;
+  padding: 0px 4%;
+  font-size: 1.5rem;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+@media (max-width: 767px) {
+  .engineeringHEFMStyle {
+    width: 99%;
+  }
+  .engineeringHEFMStyle .marginrowTop {
+    padding-top: 5%;
+  }
+  .engineeringHEFMStyle .rowColor .EmbeddedImg .sectionImageEmbedded,
+  .engineeringHEFMStyle .rowColor .HardwareImg .sectionImageHardware,
+  .engineeringHEFMStyle .rowColor .FPGAImg .sectionImageFPGA,
+  .engineeringHEFMStyle .rowColor .MechanicalImg .sectionImageMechanical {
+    margin-left: -0.5%;
+  }
+  .engineeringHEFMStyle .EmbeddedRowReverse,
+  .engineeringHEFMStyle .MechanicalRowReverse {
+    flex-direction: column-reverse;
+  }
+  .engineeringHEFMStyle .rowColor .MechanicalImg .sectionImageMechanical img,
+  .engineeringHEFMStyle .rowColor .HardwareImg .sectionImageHardware img,
+  .engineeringHEFMStyle .rowColor .EmbeddedImg .sectionImageEmbedded img,
+  .engineeringHEFMStyle .rowColor .FPGAImg .sectionImageFPGA img {
+    padding: 0 2%;
+    height: 300px;
+  }
+  .engineeringHEFMStyle .rowColor .EmbeddedData h2,
+  .engineeringHEFMStyle .rowColor .HardWareData h2,
+  .engineeringHEFMStyle .rowColor .FPGAData h2,
+  .engineeringHEFMStyle .rowColor .MechanicalData h2 {
+    margin-top: -6rem;
+  }
+}
+@media only screen and (width: 640px) and (height: 360px) {
+  .engineeringHEFMStyle .rowColor .EmbeddedData h2,
+  .engineeringHEFMStyle .rowColor .HardWareData h2,
+  .engineeringHEFMStyle .rowColor .FPGAData h2,
+  .engineeringHEFMStyle .rowColor .MechanicalData h2 {
+    margin-top: -10rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .engineeringHEFMStyle {
+    width: 99%;
+    margin-left: 0%;
+  }
+  .engineeringHEFMStyle .rowColor .EmbeddedData p,
+  .engineeringHEFMStyle .rowColor .HardWareData p,
+  .engineeringHEFMStyle .rowColor .FPGAData p,
+  .engineeringHEFMStyle .rowColor .MechanicalData p {
+    line-height: 1.6;
+  }
+  .engineeringHEFMStyle .rowColor .HardWareData {
+    margin: 15% 0;
+  }
+  .engineeringHEFMStyle .rowColor .EmbeddedData h2,
+  .engineeringHEFMStyle .rowColor .MechanicalData h2 {
+    margin: 0;
+  }
+  .engineeringHEFMStyle .rowColor .EmbeddedData {
+    margin: 7% 0;
+  }
+  .engineeringHEFMStyle .rowColor .EmbeddedImg .sectionImageEmbedded img {
+    width: 102%;
+    height: 406px;
+  }
+  .engineeringHEFMStyle .rowColor .MechanicalData {
+    margin: 2% 0;
+  }
+  .engineeringHEFMStyle .rowColor .MechanicalImg .sectionImageMechanical img {
+    width: 100%;
+    height: 419px;
+  }
+}
+@media (min-width: 992px) {
+  .engineeringHEFMStyle .rowColor .HardwareImg {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .engineeringHEFMStyle {
+    width: 99%;
+  }
+
+  .engineeringHEFMStyle .rowColor .HardWareData p,
+  .engineeringHEFMStyle .rowColor .EmbeddedData p,
+  .engineeringHEFMStyle .rowColor .FPGAData p,
+  .engineeringHEFMStyle .rowColor .MechanicalData p {
+    line-height: 1.6;
+  }
+  .engineeringHEFMStyle .rowColor .EmbeddedData {
+    margin: 10% 0;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+  .engineeringHEFMStyle {
+    width: 99%;
+  }
+}
+@media (min-width: 1400px) {
+  .engineeringHEFMStyle {
+    width: 99%;
+  }
+}
+/*  */
+
+.ImageDisplay .engineeringImage {
+  margin-left: 11%;
+}
+.ImageDisplay .engineeringImage img {
+  margin-top: 103%;
+}
+.ImageDisplay .arrowImagePosition {
+  top: 6%;
+}
+.ImageDisplay .dataPresent p {
+  font-size: 17px;
+}
+.ImageDisplay {
+  height: 90vh;
+}
+@media only screen and (width: 360px) and (height: 640px) {
+  .ImageDisplay {
+    height: 92vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 118%;
+  }
+  .ImageDisplay .arrowImagePosition {
+    top: 6%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (width: 384px) and (height: 640px) {
+  .ImageDisplay {
+    height: 92vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 107%;
+  }
+  .ImageDisplay .arrowImagePosition {
+    top: 6%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 412px) {
+  .ImageDisplay {
+    height: 90vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 99%;
+  }
+  .ImageDisplay .arrowImagePosition {
+    top: 6%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 412px) and (height: 732px) {
+  .ImageDisplay {
+    height: 79vh;
+  }
+}
+@media only screen and (width: 320px) and (height: 533px) {
+  .ImageDisplay {
+    height: 107vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 119%;
+  }
+  .ImageDisplay .dataPresent {
+    position: absolute;
+    top: 16%;
+    left: -4%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 16px;
+    margin-left: 11%;
+  }
+}
+@media only screen and (width: 480px) and (height: 854px) {
+  .ImageDisplay {
+    height: 56vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 68%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 18px;
+    margin-top: 7%;
+  }
+  .ImageDisplay .dataPresent h2 {
+    left: 4%;
+  }
+}
+@media only screen and (width: 320px) and (height: 480px) {
+  .ImageDisplay {
+    height: 100vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 95%;
+  }
+  .ImageDisplay .dataPresent {
+    position: absolute;
+    top: 15%;
+    left: 1%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 15px;
+  }
+}
+@media only screen and (width: 411px) and (height: 731px) {
+  .ImageDisplay {
+    height: 75vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 90%;
+  }
+  .ImageDisplay .dataPresent p {
+    margin-top: 7%;
+  }
+}
+@media only screen and (width: 411px) and (height: 823px) {
+  .ImageDisplay {
+    height: 72vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 100%;
+  }
+  .ImageDisplay .dataPresent p {
+    margin-top: 7%;
+  }
+}
+@media only screen and (width: 320px) and (height: 568px) {
+  .ImageDisplay {
+    height: 94vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 117%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 16px;
+  }
+  .ImageDisplay .dataPresent h2 {
+    left: 1%;
+  }
+}
+@media only screen and (width: 375px) and (height: 667px) {
+  .ImageDisplay {
+    height: 87vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 110%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 414px) and (height: 736px) {
+  .ImageDisplay {
+    height: 80vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 96%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 18px;
+  }
+  .ImageDisplay .dataPresent p {
+    margin-top: 7%;
+  }
+}
+@media only screen and (width: 375px) and (height: 812px) {
+  .ImageDisplay {
+    height: 82vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 128%;
+  }
+  .ImageDisplay .dataPresent p {
+    font-size: 18px;
+  }
+}
+@media only screen and (width: 533px) and (height: 320px) {
+  .ImageDisplay .dataPresent h2 {
+    margin-top: 3%;
+    margin-left: 8%;
+  }
+  .ImageDisplay {
+    height: 188vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 60%;
+  }
+  .ImageDisplay .dataPresent {
+    top: 11%;
+  }
+  .ImageDisplay .arrowImagePosition {
+    top: 5%;
+  }
+}
+@media only screen and (width: 480px) and (height: 320px) {
+  .ImageDisplay .dataPresent h2 {
+    margin-top: 3%;
+    margin-left: 8%;
+  }
+  .ImageDisplay {
+    height: 164vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 68%;
+  }
+  .ImageDisplay .dataPresent {
+    top: 13%;
+  }
+}
+@media only screen and (width: 568px) and (height: 320px) {
+  .ImageDisplay .dataPresent h2 {
+    margin-top: 3%;
+    margin-left: 8%;
+  }
+  .ImageDisplay {
+    height: 188vh;
+  }
+  .ImageDisplay .engineeringImage img {
+    margin-top: 60%;
+  }
+  .ImageDisplay .dataPresent {
+    top: 11%;
+  }
+  .ImageDisplay .arrowImagePosition {
+    top: 5%;
+  }
+}
+
+/* new banner part for Engineering services */
+section .ContainerEngineeringService {
+  /* background: white; */
+  width: 100%;
+  max-width: 100%;
+  text-align: right;
+  position: relative;
+}
+section .ContainerEngineeringService .EngineeringBackgroundImage {
+  width: 88%;
+}
+section .ContainerEngineeringService .EngineeringBannerDataPosition {
+  position: absolute;
+  top: 45%;
+  left: 4%;
+  /* transform: translate(-50%, -50%); */
+}
+
+section .ContainerEngineeringService .EngineeringBannerDataPosition h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #58585a;
+  text-align: left;
+}
+section .ContainerEngineeringService .EngineeringBannerDataPosition p {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #5d5d5f;
+  max-width: 475px;
+  text-align: justify;
+}
+section
+  .ContainerEngineeringService
+  .EngineeringBannerDataPosition
+  .LearnMoreLink {
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  animation: imagecoveranimation 2s infinite;
+  -webkit-animation: imagecoveranimation 2s infinite;
+  -moz-animation: imagecoveranimation 2s infinite;
+  -o-animation: imagecoveranimation 2s infinite;
+}
+section .ContainerEngineeringService .EngineeiringImagePosition {
+  position: absolute;
+  /* float: left; */
+  top: 23%;
+  right: 9%;
+  height: 23vh;
+}
+section .ContainerEngineeringService .EngineeiringImagePosition img {
+  width: 56%;
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  section .ContainerEngineeringService {
+    background: white;
+    width: 100%;
+    max-width: 100%;
+    text-align: right;
+    margin-top: 8.5%;
+    height: 75vh;
+    position: relative;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #58585a;
+    max-width: 334px;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #5d5d5f;
+    max-width: 238px;
+    text-align: justify;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    /* transform: translate(-50%, -50%); */
+    text-align: left;
+  }
+  section .ContainerEngineeringService .EngineeiringImagePosition img {
+    width: 47%;
+  }
+  section .ContainerEngineeringService .EngineeiringImagePosition {
+    position: absolute;
+    /* float: left; */
+    top: 18%;
+    right: 9%;
+    height: 18vh;
+  }
+}
+@media only screen and (width: 600px) and (height: 1024px) {
+  section .ContainerEngineeringService {
+    margin-top: 10.5%;
+    height: 29vh;
+  }
+}
+@media only screen and (width: 600px) and (height: 960px) {
+  section .ContainerEngineeringService {
+    margin-top: 10.5%;
+    height: 29vh;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 640px) {
+  section .ContainerEngineeringService {
+    height: 82vh;
+    margin-top: 9.5%;
+  }
+}
+
+@media only screen and (width: 667px) and (height: 375px) {
+  section .ContainerEngineeringService {
+    margin-top: 8.5%;
+    height: 82vh;
+  }
+}
+@media screen and (min-width: 731px) and (max-width: 731px) {
+  section .ContainerEngineeringService {
+    margin-top: 8.5%;
+    height: 82vh;
+  }
+}
+@media screen and (min-width: 732px) and (max-width: 732px) {
+  section .ContainerEngineeringService {
+    margin-top: 8%;
+    height: 82vh;
+  }
+}
+@media screen and (min-width: 736px) and (max-width: 736px) {
+  section .ContainerEngineeringService {
+    margin-top: 8%;
+    height: 83vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section .ContainerEngineeringService {
+    background: white;
+    width: 100%;
+    max-width: 100%;
+    text-align: right;
+    margin-top: 6%;
+    height: 68vh;
+    position: relative;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #58585a;
+    max-width: 400px;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #5d5d5f;
+    max-width: 314px;
+    text-align: justify;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition {
+    position: absolute;
+    /* float: left; */
+    top: 29%;
+    left: 3%;
+    /* transform: translate(-50%, -50%); */
+    text-align: left;
+  }
+  section .ContainerEngineeringService .EngineeiringImagePosition {
+    position: absolute;
+    /* float: left; */
+    top: 21%;
+    right: 9%;
+    height: 18vh;
+  }
+  section .ContainerEngineeringService .EngineeiringImagePosition img {
+    width: 44%;
+  }
+}
+@media only screen and (width: 812px) and (height: 375px) {
+  section .ContainerEngineeringService .EngineeringBannerDataPosition p {
+    max-width: 353px;
+  }
+}
+@media only screen and (width: 823px) and (height: 411px) {
+  section .ContainerEngineeringService .EngineeringBannerDataPosition {
+    top: 16%;
+  }
+}
+@media only screen and (width: 768px) and (height: 1024px) {
+  section .ContainerEngineeringService {
+    margin-top: 8%;
+    height: 38vh;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition {
+    top: 25%;
+  }
+}
+@media only screen and (width: 800px) and (height: 1280px) {
+  section .ContainerEngineeringService {
+    height: 32vh;
+    margin-top: 8%;
+  }
+}
+@media only screen and (width: 812px) and (height: 375px) {
+  section .ContainerEngineeringService {
+    height: 94vh;
+    margin-top: 7%;
+  }
+
+  section .ContainerEngineeringService .EngineeringBannerDataPosition {
+    position: absolute;
+    /* float: left; */
+    top: 16%;
+  }
+}
+@media only screen and (width: 823px) and (height: 411px) {
+  section .ContainerEngineeringService {
+    height: 83vh;
+    margin-top: 7%;
+  }
+  .EngineeringBannerDataPosition {
+    position: absolute;
+    /* float: left; */
+    top: 25%;
+  }
+}
+@media only screen and (width: 854px) and (height: 480px) {
+  section .ContainerEngineeringService {
+    height: 83vh;
+    margin-top: 7%;
+  }
+}
+
+@media only screen and (width: 960px) and (height: 600px) {
+  section .ContainerEngineeringService {
+    margin-top: 6%;
+    height: 69vh;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+  section .ContainerEngineeringService {
+    height: 79vh;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #58585a;
+    max-width: 400px;
+  }
+
+  section .ContainerEngineeringService .EngineeringBannerDataPosition p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #5d5d5f;
+    max-width: 375px;
+    text-align: justify;
+  }
+  section .ContainerEngineeringService .EngineeringBannerDataPosition {
+    position: absolute;
+    /* float: left; */
+    top: 37%;
+    left: 3%;
+    /* transform: translate(-50%, -50%); */
+    text-align: left;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  section .ContainerEngineeringService .EngineeiringImagePosition img {
+    width: 44%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  section .ContainerEngineeringService .EngineeiringImagePosition img {
+    width: 50%;
+  }
+}
+@media screen and (width: 1024px) and (height: 1366px) {
+  section .ContainerEngineeringService {
+    height: 37vh;
+  }
+}
+@media (min-width: 1400px) {
+  section .ContainerEngineeringService .EngineeiringImagePosition img {
+    width: 56%;
+  }
+}
+@media (min-width: 1600px) {
+  section .ContainerEngineeringService .EngineeiringImagePosition img {
+    width: 63%;
+  }
+}
+@media (min-width: 1800px) {
+  section .ContainerEngineeringService .EngineeiringImagePosition img {
+    width: 74%;
+  }
+}
+/* end */
+
+@media only screen and (width: 1024px) and (height: 625px) {
+  section .ContainerEngineeringService {
+    height: 80vh;
+  }
+}
+
+@media only screen and (width: 1024px) and (height: 600px) {
+  section .ContainerEngineeringService {
+    height: 82vh;
+  }
+}
+
+@media only screen and (width: 1024px) and (height: 768px) {
+  section .ContainerEngineeringService {
+    height: 67vh;
+  }
+}
+
+@media only screen and (width: 640px) and (height: 360px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 28%;
+  }
+}
+@media only screen and (width: 1500px) and (height: 680px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 15%;
+  }
+}
+@media (width: 1500px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 5%;
+    /*  background: red; */
+  }
+}
+@media only screen and (width: 800px) and (height: 1280px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 14%;
+  }
+}
+@media only screen and (width: 360px) and (height: 640px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 32%;
+  }
+}
+@media only screen and (width: 600px) and (height: 960px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 32%;
+  }
+}
+@media only screen and (width: 320px) and (height: 533px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 21%;
+  }
+}
+@media only screen and (width: 768px) and (height: 1024px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 31%;
+  }
+}
+@media only screen and (width: 320px) and (height: 480px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 22%;
+  }
+}
+@media only screen and (width: 360px) and (height: 640px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 9%;
+  }
+}
+@media only screen and (width: 411px) and (height: 731px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: -8%;
+  }
+}
+@media only screen and (width: 375px) and (height: 667px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 11%;
+  }
+}
+@media only screen and (width: 414px) and (height: 736px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: -16%;
+  }
+}
+@media only screen and (width: 375px) and (height: 812px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: -12%;
+  }
+}
+@media only screen and (width: 1024px) and (height: 1366px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 38%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 899px) {
+  .EngSrv-technology-section .body-section {
+    margin-top: 28%;
+  }
+  .carousel .carousel-indicators {
+    bottom: 6%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .carousel-inner .item .BannerDataPosition h2 {
+    font-size: 3.3rem;
+  }
+}

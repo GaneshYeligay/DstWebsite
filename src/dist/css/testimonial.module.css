@@ -1,0 +1,96 @@
+.sub-title-text {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+
+  display: block;
+  text-align: center;
+  font-family: Lato, MoolBoran;
+  color: rgb(113, 108, 108);
+}
+.textStyle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 400px) {
+  .textStyle {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 600px) {
+  .textStyle {
+    margin-top: 5%;
+  }
+}
+.textStyleTablet {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5%;
+}
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  .textStyle {
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (width: 360px) and (height: 640px) {
+  .textStyle {
+    margin-top: 16%;
+  }
+}
+@media only screen and (width: 375px) and (height: 667px) {
+  .textStyle {
+    margin-top: 16%;
+  }
+}
+@media only screen and (width: 375px) and (height: 812px) {
+  .textStyle {
+    margin-top: 18%;
+  }
+}
+
+@media only screen and (width: 384px) and (height: 640px) {
+  .textStyle {
+    margin-top: 16%;
+  }
+}
+@media only screen and (width: 411px) and (height: 731px) {
+  .textStyle {
+    margin-top: 20%;
+  }
+}
+@media only screen and (width: 411px) and (height: 823px) {
+  .textStyle {
+    margin-top: 18%;
+  }
+}
+@media only screen and (width: 412px) and (height: 732px) {
+  .textStyle {
+    margin-top: 27%;
+  }
+}
+@media only screen and (width: 414px) and (height: 736px) {
+  .textStyle {
+    margin-top: 18%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 584px) {
+  .textStyle {
+    margin-top: 33%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .textStyle {
+    margin-top: 1%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .textStyleTablet {
+    margin-top: 6%;
+  }
+}

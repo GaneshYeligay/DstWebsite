@@ -1,0 +1,20 @@
+.dsp-body .form-control input[type="text"] {
+  border: 1px solid #ced4da;
+
+  padding: 0.5em;
+  border-radius: 2px;
+}
+
+.my-btn {
+  padding: 10px 20px;
+  background: #015e9e;
+  color: #ffffff;
+  position: relative;
+  border-radius: 0;
+  border: none;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+

@@ -1,0 +1,8 @@
+.drawer-logo {
+  display: flex !important;
+  padding: 5px;
+  align-items: baseline;
+}
+.drawer-logo p {
+  padding-left: 1rem;
+}

@@ -1,0 +1,47 @@
+
+// changes before going prduction
+
+1. go to scr/config/domainsjson
+        repacing  following 
+        {
+                "environment": "developement",
+                "academic": "http://academic.digitalshark.com:3000",
+                 "product": "http://product.digitalshark.com:3000",
+                 "rootsite": "http://newsite.digitalshark.com:3000",
+                 "path" : "http://localhost:3001"
+
+        }
+
+
+        to 
+         {
+         "environment": "",
+            "academic": "http://academic.digitalshark.in",
+            "product": "http://product.digitalshark.in",
+             "rootsite": "http://newsite.digitalshark.in",
+             "path" : "http://206.189.129.174:3001"
+        }
+
+
+
+
+
+
+
+
+// How to accaess site in devepelopement 
+
+access:  http://newsite.digitalshark.com:prots
+access:  http://academic.digitalshark.com:prots
+access:  http://product.digitalshark.com:prots
+
+
+
+
+
+
+--------------------
+prod environment
+access:  http://newsite.digitalshark.in
+access:  http://academic.digitalshark.in
+access:  http://product.digitalshark.in

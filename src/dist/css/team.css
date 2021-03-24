@@ -1,0 +1,156 @@
+.row .title-text {
+  font-size: 4em;
+  font-family: Lato, MoolBoran;
+  font-weight: 600;
+  color: #484646;
+}
+
+/* desktop */
+
+@media (min-width: 900px) {
+  .page-title {
+    background: #2d4791;
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", GothamBook, sans-serif;
+    color: #424143;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .page-title h2:after {
+    content: "";
+    width: 128px;
+    height: 1px;
+    top: 50%;
+    background: #424143;
+    position: absolute;
+    left: 0;
+  }
+  .page-title h2:before {
+    content: "";
+    width: 128px;
+    height: 1px;
+    top: 50%;
+    background: #dde7fe;
+    position: absolute;
+    right: 0;
+  }
+
+  .page-title h2 {
+    margin: 0 20px;
+    padding: 0 126px;
+    letter-spacing: 6px;
+    color: #424143;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 100%;
+  }
+  .page-title h2 span {
+    max-width: 100%;
+    display: inline-block;
+    padding: 0 16px 0 22px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    letter-spacing: 6px;
+  }
+
+  .page-title h2 span::before {
+    background: #dde7fe;
+    box-sizing: border-box;
+  }
+  .page-title h2::after {
+    background: #dde7fe;
+  }
+
+  .page-title h2 span::after {
+    background: #dde7fe;
+  }
+  .page-title h2 span:after {
+    box-sizing: border-box;
+    left: auto;
+    right: 0;
+  }
+
+  .page-title h2 span:after {
+    content: "";
+    width: 2px;
+    height: 22px;
+    background: #dde7fe;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -11px;
+  }
+
+  .page-title h2 span:before {
+    content: "";
+    width: 2px;
+    height: 22px;
+    background: #dde7fe;
+    position: absolute;
+    right: 0;
+
+    top: 50%;
+    margin-top: -11px;
+  }
+
+  .row .header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .row .body-section {
+    margin-top: 5%;
+  }
+
+  .row .title-text {
+    font-size: 4rem;
+
+    font-weight: 600;
+    color: rgb(72, 70, 70);
+    font-family: Lato, MoolBoran;
+  }
+
+  p.sub-title-text {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    max-width: calc(100% - 500px);
+    display: block;
+    text-align: center;
+    font-family: Lato, MoolBoran;
+    color: rgb(113, 108, 108);
+  }
+}
+.team-style-one {
+  margin-top: -4%;
+  background-color: white;
+}
+.team-style-one .row {
+  /* margin: 0 70px; */
+}
+.team-style-two {
+  background-color: white;
+}
+.team-style-two {
+  background-color: white;
+}
+p.teamDetails {
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+  /* line-height: 1.4em; */
+  margin-bottom: 1em;
+  color: #333e48;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0 25px;
+}

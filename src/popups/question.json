@@ -1,0 +1,89 @@
+{
+  "question": "Hello,What can we help you with?",
+  "options": [
+    {
+      "title": "Embedded Services(ES)",
+      "question": "ES-Let us know the sector you operate in.",
+      "options": [
+        {
+          "title": "Health Care/Medical",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Automotive",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Other",
+          "question": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "title": "Software Development(SD)",
+      "question": "(SD)-What are you looking to Design",
+      "options": [
+        {
+          "title": "Website Development",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Software Development",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Mobile App Development",
+          "question": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "title": "AI/IoT Solutions(AS)",
+      "question": "(AS)-Tell us more about type of solution you are looking for?",
+      "options": [
+        {
+          "title": "Cloud based monitoring",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Fleet Management",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Preedictive Analysis",
+          "question": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "title": "Testing Automation(TA)",
+      "question": "TA-T Let us know more about solution you are looking for?",
+      "options": [
+        {
+          "title": "Functional Tester",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Cable Harness Tester",
+          "question": null,
+          "options": []
+        },
+        {
+          "title": "Quality environmental Tester",
+          "question": null,
+          "options": []
+        }
+      ]
+    }
+  ]
+}

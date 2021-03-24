@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Digital Shark Technology</title>
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- example to use -->
+    <!-- <i class="material-icons" style="font-size:48px;">cloud</i> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <!-- Ionicons -->
+
+    <!-- Tempusdominus Bbootstrap 4 -->
+    <!--  <link
+      rel="stylesheet"
+      href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css"
+    /> -->
+    <!-- iCheck -->
+
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css" />
+    <!-- Theme style -->
+    <!--  <link rel="stylesheet" href="dist/css/adminlte.css" />
+ -->
+    <!-- overlayScrollbars -->
+    <!--   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css" /> -->
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="dist/img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="dist/img/favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <link href="dist/css/slider.css" rel="stylesheet" />
+    <link href="dist/css/animated.css" rel="stylesheet" />
+    <link href="js-image-slider.css" rel="stylesheet" type="text/css" />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="plugins/pace-progress/themes/blue/pace-theme-loading-bar.css"
+      class="page-loader"
+      rel="stylesheet"
+    />
+    <script src="js-image-slider.js" type="text/javascript"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.8.2/pace.min.js"></script>
+    <script src="plugins/pace-progress/pace.js"></script>
+
+    <!--   <link href="dist/css/custom.css" rel="stylesheet" /> -->
+    <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+    <style>
+      /*  bhoechie tab */
+
+      div.bhoechie-tab-container {
+        z-index: 10;
+        line-height: 18px;
+        background-color: #ffffff;
+        padding: 0 !important;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        border: 1px solid #ddd;
+        margin: 0;
+
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        background-clip: padding-box;
+        opacity: 0.97;
+        filter: alpha(opacity=97);
+      }
+
+      div.bhoechie-tab-menu {
+        background-color: #2d4791;
+        height: 100vh;
+        margin-top: 3rem;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 78px !important;
+      }
+
+      div.bhoechie-tab-menu div.list-group {
+        margin-bottom: 0;
+      }
+
+      .bhoechie-tab-menu .list-group-item {
+        border: none;
+        background-color: #2d4791;
+        padding: 5px;
+        font-family: "Lato";
+      }
+
+      .list-group-hover .list-group-item:hover {
+        color: white;
+        text-decoration: none;
+        background-color: #2294f4;
+      }
+
+      .list-group-hover .list-group-item:focus {
+        color: #f7f0b8;
+        background-color: #2294f4;
+        text-decoration: none;
+      }
+
+      div.bhoechie-tab-menu div.list-group > a {
+        -webkit-box-align: center;
+        line-height: 1.8rem;
+        -ms-flex-align: center;
+        align-items: center;
+        border-bottom: 0;
+        color: #fff;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        font-size: 12px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        width: 78px;
+      }
+
+      div.bhoechie-tab-menu div.list-group > a .glyphicon,
+      div.bhoechie-tab-menu div.list-group > a .fa {
+        color: #5a55a3;
+      }
+
+      div.bhoechie-tab-menu div.list-group > a:first-child {
+        border-top-right-radius: 0;
+        -moz-border-top-right-radius: 0;
+      }
+
+      div.bhoechie-tab-menu div.list-group > a:last-child {
+        border-bottom-right-radius: 0;
+        -moz-border-bottom-right-radius: 0;
+      }
+
+      div.bhoechie-tab-menu div.list-group > a.active,
+      div.bhoechie-tab-menu div.list-group > a.active .glyphicon,
+      div.bhoechie-tab-menu div.list-group > a.active .fa {
+        background-color: #2294f4;
+        background-image: #11809f;
+        color: #ffffff;
+      }
+
+      div.bhoechie-tab-menu div.list-group > a.active:after {
+        content: "";
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        margin-top: -13px;
+        border-left: 0;
+        border-bottom: 13px solid transparent;
+        border-top: 13px solid transparent;
+        border-left: 10px solid #2294f4;
+      }
+
+      div.bhoechie-tab-content {
+        background-color: transparent;
+        /* border: 1px solid #eeeeee; */
+        height: 100vh;
+        width: 100%;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        padding-left: 5px;
+        padding-top: 10px;
+        overflow-y: scroll;
+        padding-right: 5px;
+      }
+
+      .bhoechie-tab-content-header {
+        color: rgb(85, 81, 138);
+        cursor: pointer;
+        /* float: left; */
+        margin: 10px;
+        font-size: x-large;
+        font-weight: bold;
+        padding-top: 10px;
+      }
+      div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+        display: none;
+      }
+
+      .bhoechie-tab {
+        padding: 0px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 7.1rem;
+
+        background: white;
+        display: none;
+        height: 100vh;
+        z-index: 100;
+      }
+      .md-4 {
+        height: 75%;
+      }
+      .md-5 {
+        margin: 0 4% 20px 0;
+        border-top: 3px solid #ffc600;
+        width: 29%;
+        padding: 20px 0 0 0;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body
+    className="hold-transition sidebar-mini layout-fixed preloader"
+    id="app-body"
+  >
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="root" className="wrapper "></div>
+
+    <script src="https://unpkg.com/react-history/umd/react-history.min.js"></script>
+
+    <!-- Bootstrap 4 -->
+
+    <!-- ChartJS -->
+
+    <!-- Sparkline -->
+
+    <!-- JQVMap -->
+
+    <!-- daterangepicker -->
+
+    <!-- Tempusdominus Bootstrap 4 -->
+
+    <!-- Summernote -->
+
+    <!-- overlayScrollbars -->
+
+    <!-- FastClick -->
+    <!-- <script src="plugins/fastclick/fastclick.js"></script> -->
+    <!-- AdminLTE App -->
+
+    <script src="dist/js/adminlte.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+
+    <!-- AdminLTE for demo purposes -->
+
+    <script>
+      $(document).ready(function () {
+        $("#pageHead").siblings("#pageHead").css("backgroundColor", "green");
+
+        $("#closenav").click(function (e) {
+          e.preventDefault();
+          console.log("click happened");
+          let flag = $(document.body).hasClass("sidebar-open");
+          if (flag) {
+            $(document.body).removeClass("sidebar-open");
+          }
+          console.log("has class", flag);
+        });
+
+        $("div.bhoechie-tab-menu>div.list-group>a.subMenu").click(function (e) {
+          e.preventDefault();
+
+          let hasSubMenu = $(this).hasClass("subMenu");
+          if (hasSubMenu) {
+            let flag = $(this).hasClass("active");
+            if (flag) {
+              // console.log("$(this).hasClass('active')", flag);
+
+              // hide bhoechie-tab class
+
+              $("div.bhoechie-tab").attr("style", "display: none !important");
+              // remove active  from selected tab
+              $(this).removeClass("active");
+
+              // remove existing content  content
+              var index = $(this).index();
+              console.log("selectd element=", this);
+              let contentIdForSelectedTab = $(this).attr("id") + "-data";
+              console.log("Id->", contentIdForSelectedTab);
+
+              $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass(
+                "active"
+              );
+              return;
+            }
+
+            $("div.bhoechie-tab").attr("style", "display:block");
+
+            // check if siblings is active - if then remove active from them
+            $(this).siblings("a.active").removeClass("active");
+
+            // add active to selected tab now
+            $(this).addClass("active");
+
+            // removce active from  data  for prev selected  tab
+            $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass(
+              "active"
+            );
+
+            // get id form selectd tab  and generate id for data
+            let contentIdForSelectedTab = $(this).attr("id") + "-data";
+            // console.log("contentIdForSelectedTab->", contentIdForSelectedTab);
+
+            var index = $(this).index();
+            /* 
+            console.log(
+              "bhoechie-tab-content",
+              $("#" + contentIdForSelectedTab)
+            ); */
+            $("#" + contentIdForSelectedTab).addClass("active");
+            /*   $("div.bhoechie-tab>div.bhoechie-tab-content")
+              .eq(index)
+              .addClass("active"); */
+          } /* else {
+             console.log("not sub menu");
+            $("div.bhoechie-tab").attr("style", "display:none");
+            $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass(
+              "active"
+            ); 
+          } */
+        });
+
+        //if menu-header
+
+        $("div.bhoechie-tab-menu>div.list-group>a.menu-header").click(function (
+          e
+        ) {
+          $(this).siblings("a.active").removeClass("active");
+          $(this).addClass("active");
+          $("div.bhoechie-tab").attr("style", "display: none !important");
+          // $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+        });
+      });
+
+      $("div.bhoechie-tab-menu>div.list-group>a").click(function (e) {
+        console.log("comming ");
+      });
+      $("btnGoback").click(function (e) {
+        alert("clicking is happening");
+        window.history.back();
+      });
+    </script>
+    <!--     <script src="dist/js/bs-carousel.js"></script> -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        console.log("Will the service worker register?");
+        navigator.serviceWorker
+          .register("sw.js")
+          .then(function (reg) {
+            console.log("Yes, it did.");
+          })
+          .catch(function (err) {
+            console.log("No it didn't. This happened:", err);
+          });
+      }
+
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("button").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+      // end
+
+      function typeEffect(element, speed) {
+        var text = element.innerHTML;
+        element.innerHTML = "";
+
+        var i = 0;
+        var timer = setInterval(function () {
+          if (i < text.length) {
+            element.append(text.charAt(i));
+            i++;
+          } else {
+            clearInterval(timer);
+          }
+        }, speed);
+      }
+
+      // application
+      var speed = 50;
+      var h2 = document.querySelector("h2");
+      var h5 = document.querySelector("h5");
+      var delay = h2.innerHTML.length * speed + speed;
+
+      // type affect to header
+      typeEffect(h2, speed);
+
+      // type affect to body
+      setTimeout(function () {
+        h5.style.display = "inline-block";
+        typeEffect(h5, speed);
+      }, delay);
+    </script>
+
+    <script>
+      $("#slideshow > div:gt(0)").hide();
+
+      setInterval(function () {
+        $("#slideshow > div:first")
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo("#slideshow");
+      }, 3000);
+    </script>
+
+    <script type="text/javascript">
+      var $ = jQuery.noConflict();
+      $(document).ready(function () {
+        $("#hero-carousel").carousel({
+          interval: 2000,
+          pause: true,
+        });
+      });
+    </script>
+    <script>
+      $(".carousel").carousel();
+    </script>
+    <!-- <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script> -->
+    <!---  crousal plugings   --->
+  </body>
+</html>

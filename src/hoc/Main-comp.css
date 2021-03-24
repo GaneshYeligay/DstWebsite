@@ -1,0 +1,155 @@
+.page-title-box {
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  text-align: center;
+  -webkit-transition: background 1s ease-out;
+  -moz-transition: background 1s ease-out;
+  -o-transition: background 1s ease-out;
+  transition: background 1s ease-out;
+
+  padding: 20px 0 20px 0;
+  border: 3px solid #fff;
+}
+.page-title-box:hover {
+  background-color: rgba(43, 40, 40, 0.8);
+}
+
+.te_course_list {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+}
+.te_course_list li {
+  margin: 3px;
+  font-family: "Roboto", sans-serif;
+}
+.courseCard-detail li {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+.b_inst_name {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+.card h2 {
+  font-family: "Roboto", sans-serif;
+}
+.viewDetailcard {
+  font-family: "Roboto", sans-serif;
+}
+
+.page-title-box h2 {
+  /* font-size: 32px; */
+  /* font-size: ; */
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.wrapCard {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  min-height: 6rem;
+}
+.col-courses-card .courseCover {
+  min-height: 180px;
+  line-height: 0px;
+  min-width: 31rem;
+  border-bottom: 1px solid #cfcfcf;
+  background-size: cover;
+  background-position: center;
+}
+.col-courses-card .courseCover.card3 {
+  background-image: url("../dist/img/second-2.jpg");
+}
+.col-courses-card .courseCover.card2 {
+  background-image: url("../dist/img/ml-python.png");
+}
+.col-courses-card .courseCover.card1 {
+  background-image: url("../dist/img/Product-parterns/ragol//rigol_logo_cropped.png");
+}
+.col-courses-card .courseCover.sdp {
+  background-image: url("../dist/img/tab-bar/pm-herographic.png");
+  width: 100%;
+}
+
+.col-courses-card .courseCover.nvidia {
+  background-image: url("../dist/img/Product-parterns/nvidia/Nvidia_dls.jpg");
+  width: 100%;
+}
+.col-courses-card .courseCover.ti {
+  background-image: url("../dist/img/tab-bar/Ti_logo.png");
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.col-courses-card .courseCover.lpkf {
+  background-image: url("../dist/img/Product-parterns/lpkf_logo_cropped.png");
+  width: 100%;
+}
+
+.col-courses-card .courseCover.TecfPgm {
+  background-image: url("../dist/img/tab-bar/techical_finishing_school.jpg");
+  width: 100%;
+}
+.col-courses-card .courseCover.intership {
+  background-image: url("../dist/img/tab-bar/Internship.jpg");
+  width: 100%;
+}
+
+.col-courses-card .courseCover.iray_iiot_enbled_device {
+  background-image: url("../dist/img/tab-bar/iray-device.png");
+  width: 100%;
+}
+
+.col-courses-card .courseCover.iray_dashboard {
+  background-image: url("../dist/img/tab-bar/iray-dashboard-lg.jpg");
+
+  width: 100%;
+}
+
+.col-courses-card .courseCover.cloud-device {
+  background-image: url("../dist/img/tab-bar/iray-vhook.jpg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.col-courses-card .courseCard-detail {
+  min-height: 80px;
+}
+
+.card {
+  box-shadow: none;
+}
+
+/* skill dev programs images */
+.col-courses-card .courseCover.iot_embedded_system_design {
+  background-image: url("../dist/img/skill-dev/embedded.jpg");
+  width: 100%;
+}
+.col-courses-card .courseCover.IoT-Security {
+  background-image: url("../dist/img/skill-dev/IoT-Security.jpg");
+  width: 100%;
+}
+.col-courses-card .courseCover.qt-qml {
+  background-image: url("../dist/img/skill-dev/qt-qml-4.jpg");
+  width: 100%;
+}
+.col-courses-card .courseCover.rapid-prototyping {
+  background-image: url("../dist/img/skill-dev/rapid-prototyping.jpg");
+  width: 100%;
+}
+
+.col-courses-card .courseCover.rtos {
+  background-image: url("../dist/img/skill-dev/rtos.jpg");
+  width: 100%;
+}
+.col-courses-card .courseCover.iot-workshop {
+  background-image: url("../dist/img/skill-dev/iot-workshop.png");
+  width: 100%;
+}

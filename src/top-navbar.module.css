@@ -1,0 +1,6 @@
+.top-navbar-width {
+  width: 100%;
+  width: -moz-available; 
+  width: -webkit-fill-available; 
+  width: stretch;
+}

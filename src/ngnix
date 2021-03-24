@@ -1,0 +1,86 @@
+check status  ngnix
+       ->  systemctl status nginx
+
+stop nginx
+-> sudo systemctl stop nginx
+
+start nginx
+-> sudo systemctl start nginx
+
+
+-> sudo systemctl restart nginx
+
+
+If you are simply making configuration changes, Nginx can often reload 
+without dropping connections. To do this, this command can be used:
+
+->sudo systemctl reload nginx
+
+--------------------------------------------------------------------
+nginx puts default contents in following directory
+
+/var/www/html
+
+
+
+-----------------------------------------
+
+
+Server Configuration
+All configuration for nginx sits followling directory
+/etc/nginx
+
+
+/etc/nginx/nginx.conf
+
+
+
+Server Logs
+---------------------------
+
+/var/log/nginx/access.log
+
+/var/log/nginx/error.log
+
+
+Firewall 
+---------------------------
+sudo ufw allow 'Nginx HTTP'
+sudo ufw status
+
+Output
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere                  
+Nginx HTTP                 ALLOW       Anywhere                  
+OpenSSH (v6)               ALLOW       Anywhere (v6)             
+Nginx HTTP (v6)            ALLOW       Anywhere (v6)
+
+
+
+
+http://nginx.org/en/docs/beginners_guide.html
+
+
+
+
+
+--------------------------------------------------
+server configuration
+
+cd /etc/nginx/sites-available
+
+server {
+  listen 80;
+  server_name 206.189.129.174:3000
+  root /root/dstWebsite/dstV2/dst-new-website-react;
+  index index.html;
+  
+  access_log /var/log/nginx/krim.com.access.log;
+  error_log /var/log/nginx/krim.com.error.log;
+  location / {
+    try_files $uri /index.html =404;
+  }
+}

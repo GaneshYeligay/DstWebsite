@@ -1,0 +1,35 @@
+.switch_wrapper {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  min-height: 58px;
+  min-width: 246px;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.switch_button {
+  width: 106px;
+  background: #b9b7b7;
+  border-radius: 25px;
+
+  width: 100%;
+}
+.switch_button button.active {
+  background: #fff !important;
+  color: #007ac1 !important;
+  border: 2px solid #007ac1 !important;
+}
+
+.switch_button button {
+  min-height: 40px;
+  margin: 0;
+  width: 50%;
+  border-radius: 25px;
+  background: transparent;
+  padding: 7px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
